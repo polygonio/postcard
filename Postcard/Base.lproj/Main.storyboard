@@ -61,6 +61,15 @@
                                     <rect key="frame" x="16" y="283" width="284" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgd-IA-BDq">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="160" width="176" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="JbF-1s-dOP"/>
                                 <exclude reference="dp5-Bf-oat"/>
                                 <exclude reference="H5b-Ad-RRY"/>
+                                <exclude reference="tgd-IA-BDq"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="JbF-1s-dOP"/>
                                 <include reference="dp5-Bf-oat"/>
                                 <include reference="H5b-Ad-RRY"/>
+                                <include reference="tgd-IA-BDq"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="WKY-GW-dRW" id="bqE-yP-w6h"/>
                         <outlet property="mailButton" destination="JbF-1s-dOP" id="O4K-Af-Mhl"/>
                         <outlet property="messageLabel" destination="dp5-Bf-oat" id="E5i-yj-qM1"/>
+                        <outlet property="nameLabel" destination="tgd-IA-BDq" id="ynQ-GR-5pS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
